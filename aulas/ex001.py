@@ -9,7 +9,8 @@ usuario = input("Por gentileza, informe seu nome: ")
 if(len(usuario)< 4):
   usuario = input("O nome deve ser maior que 4 caracteres, digite novamente: ")
 
-
+salario = float(input("Insira o valor do salário atual: "))
+calculo_salario = ((salario * 40)/100)
 tipo_pessoa =  int(input(f"{usuario.upper()}, informe se é pessoa física (PF) ou jurídica!: Digite 1 para PF e 2 para PJ: "))
 
 if(tipo_pessoa == 1):
@@ -32,7 +33,9 @@ if(tipo_pessoa == 1):
     
     if(diff_days <= 90):
         print(f'{usuario.upper()} retorne após {tempo_min_credito} dias para uma nova análise.')
+    
+    else:
+        print(f""" Liberado um cartão de crédito da conta correspondente (PF) com limite de 40% da sua renda/faturamento!
+                    Limite de R$ {calculo_salario} reais""")
         
-        
-       # print('Liberado um cartão de crédito da conta correspondente (PF) com limite de 40% da sua renda/faturamento')
         
