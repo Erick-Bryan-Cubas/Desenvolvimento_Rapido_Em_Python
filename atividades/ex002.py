@@ -7,7 +7,7 @@ def funcao_media ():
     
 
 print("Seja bem-vindo ao APROVA-ESTACIO")
-print("====================================")
+print("="*40)
 aluno = str(input("Aluno, informe seu nome completo: "))
 if (len(aluno)) < 10:
     aluno = str(input("Por gentileza, informe seu nome completo: "))
