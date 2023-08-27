@@ -1,4 +1,3 @@
-
 def funcao_media ():      
     nota_ava_1 = float(input(f"{aluno.upper()}, informe a nota obtida no AVA 1: "))
     nota_ava_2 = float(input(f"{aluno.upper()}, informe a nota obtida no AVA 2: "))
