@@ -1,3 +1,5 @@
+import wx   # Importa o módulo wxPython
+import wx.grid as gridlib  # Importa o módulo gridlib
 import wx
 
 class SampleFrame(wx.Frame):
